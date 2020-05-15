@@ -1,0 +1,5 @@
+runtime: Python
+web : gunicorn script:run
+
+runtime_config:
+    python_version: 3
